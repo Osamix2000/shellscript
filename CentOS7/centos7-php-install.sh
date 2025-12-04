@@ -16,6 +16,6 @@ yum -y update
 yum-config-manager --disable 'remi-php*'
 yum-config-manager --enable remi-php${phpver}
 
-yum -y install php${phpver} php${phpver}-php-bcmath php${phpver}-php-common php${phpver}-php-devel php${phpver}-php-fpm php${phpver}-php-gd php${phpver}-php-mbstring php${phpver}-php-pdo php${phpver}-php-pear php${phpver}-php-xml php${phpver}-php-mysqlnd php${phpver}-php-pecl-zip php${phpver}-php-intl php${phpver}-php-sodium php${phpver}-pecl-apcu
+yum -y install php${phpver} php${phpver}-php-bcmath php${phpver}-php-common php${phpver}-php-devel php${phpver}-php-fpm php${phpver}-php-gd php${phpver}-php-mbstring php${phpver}-php-pdo php${phpver}-php-pear php${phpver}-php-xml php${phpver}-php-mysqlnd php${phpver}-php-pecl-zip php${phpver}-php-intl php${phpver}-php-sodium php${phpver}-php-pecl-apcu
 
 php${phpver} -v
